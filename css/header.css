@@ -238,7 +238,7 @@
 @media only screen and (max-width: 768px){
     .header .logo{
         float: none;
-        width: 50%;
+        width: 40%;
         margin-right: auto;
         margin-left: auto;
     }
