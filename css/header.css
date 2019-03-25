@@ -233,3 +233,49 @@
 		/* ======= End Tools Member ======= */
 	/* ======= End Content ========= */
 /* ======= End header ======== */
+
+
+@media only screen and (max-width: 768px){
+    .header .logo{
+        float: none;
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header .content{
+        float: none;
+        width: 100%;
+        margin-top: 2px;
+    }
+    .search-header
+    {
+    	float: none;
+    }
+    form.input-search
+    {
+    	float: none;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tags
+    {
+		float: none;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    .tools-member
+    {
+    	float: none;
+        width: 100%;
+    }
+    .member, .cart
+    {
+    	float: left;
+    	width: 50%;
+    	margin: 0;
+    	text-align: center;
+    }
+}
