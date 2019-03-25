@@ -17,6 +17,13 @@
     line-height: 40px;
 }
 
+@media only screen and (max-width: 768px){
+    h1, .rating{
+        float: none;
+        width: 100%;
+    }
+}
+
 .fa-star,
 .fa-star-o {
     color: orange;
@@ -364,4 +371,12 @@
     float: left;
     margin: 5px 0;
     color: #333;
+}
+
+@media only screen and (max-width: 768px){
+    .picture, .price_sale, .info_product{
+        float: none;
+        width: 100%;
+        margin: 10px 0;
+    }
 }
