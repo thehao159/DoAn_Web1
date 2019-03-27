@@ -267,11 +267,15 @@
     .tags
     {
 		float: none;
-        width: 80%;
         margin-right: auto;
         margin-left: auto;
         text-align: center;
     }
+    .tags a 
+    {
+		color: gray;
+		padding: 0 4px;
+	}
     .tools-member
     {
     	float: none;
