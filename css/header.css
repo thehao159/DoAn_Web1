@@ -267,6 +267,7 @@
     .tags
     {
 		float: none;
+		width: 98%;
         margin-right: auto;
         margin-left: auto;
         text-align: center;
