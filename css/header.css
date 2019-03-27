@@ -259,9 +259,13 @@
         margin-right: auto;
         margin-left: auto;
     }
+    .input-search input
+    {
+    	padding-left: 5px;
+    }
     .tags
     {
-	float: none;
+		float: none;
         width: 80%;
         margin-right: auto;
         margin-left: auto;
