@@ -267,20 +267,19 @@
     .tags
     {
 		float: none;
-		width: 98%;
-        margin-right: auto;
-        margin-left: auto;
+		width: 100%;
+        margin: 0;
         text-align: center;
     }
-    .tags a 
+    .tags a
     {
-		color: gray;
-		padding: 0 4px;
+		padding: 0 0 0 5px;
 	}
     .tools-member
     {
     	float: none;
-        width: 99%;
+        width: 100%;
+        margin: 0;
     }
     .member, .cart
     {
