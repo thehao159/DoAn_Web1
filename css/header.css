@@ -9,6 +9,10 @@
 		border-bottom: 3px solid #e1e1e1;
 	}
 
+	.header .smallmenu {
+		display: none;
+	}
+
 	/* Logo */
 		.header .logo {
 			width: 250px;
@@ -236,21 +240,34 @@
 
 
 @media only screen and (max-width: 768px){
+    .header .smallmenu {
+		display: block;
+		float: left;
+		font-size: 25px;
+		font-weight: 700;
+		margin-left: 10px; 
+	}
     .header .logo{
-        float: left;
-        width: 30%;
+        float: none;
+        width: 40%;
+        height: 40px;
         margin-right: auto;
         margin-left: auto;
     }
     .header .content{
         float: none;
         width: 100%;
-        margin-top: 2px;
+        margin-top: 5px;
+        max-height: 0;
+        overflow: hidden;
+  		transition: max-height 0.2s ease-out;
     }
     .search-header
     {
-    	float: left;
-    	width: 70%;
+    	float: none;
+    	width: 90%;
+    	margin-right: auto;
+        margin-left: auto;
     }
     form.input-search
     {
@@ -268,7 +285,7 @@
     {
 		float: none;
 		width: 100%;
-        margin: 0;
+        margin: 5px 0 0 0;
         text-align: center;
     }
     .tags a
