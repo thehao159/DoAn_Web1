@@ -21,6 +21,10 @@
     margin-top: -3px;
 }
 
+.companysFilter{
+	display: none;
+}
+
 /* Dropdown From w3 */
 	.dropbtn {
 	    background-color: #444;
@@ -154,4 +158,46 @@
 .xemTatCa:hover {
 	background-color: #ccc;
 	color: #000;
+}
+
+@media only screen and (max-width: 768px){
+	.companyMenu
+	{
+		max-height: 0;
+		overflow: hidden;
+  		transition: max-height 0.2s ease-out;
+  		margin: 0;
+	}
+	.companysFilter
+	{
+		display: block;
+		margin-top: 10px;
+		text-align: center;
+	}
+	.companysButton
+	{
+		width: 80%;
+		background-color: #444;
+    	color: white;
+    	padding: 10px 14px;
+    	font-size: 15px;
+    	border: none;
+    	border-radius: 5px;
+    	cursor: pointer;
+    	margin-bottom: 5px;
+    	transition-duration: .3s;
+    	text-align: center;
+	}
+	.companysButton p
+	{
+		width: 55%;
+		float: left;
+		text-align: right;
+	}
+	.companysButton div
+	{
+		width: 43%;
+		float: right;
+		text-align: left;
+	}
 }
