@@ -39,6 +39,7 @@
 	<script src="js/dungchung.js"></script>
 	<script src="js/trangchu.js"></script>
 
+
 </head>
 
 <body>
@@ -54,6 +55,14 @@
 		<img src="img/banners/blackFriday.gif" alt="" style="width: 100%;">
 
 		<br>
+
+		<div class="companysFilter">
+			<button class="companysButton" onclick="setCompanysMenu()">
+				<p>Hãng</p>
+				<div id="iconOpenMenu">▷</div>
+				<div id="iconCloseMenu" style="display: none;">▽</div>
+			</button>
+		</div>
 		<div class="companyMenu group flexContain"></div>
 
 		<div class="flexContain">
@@ -115,6 +124,7 @@
 	<div class="footer"><script>addFooter();</script></div>
 
 	<i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
 </body>
 
 </html>
