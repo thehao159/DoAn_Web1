@@ -699,3 +699,17 @@ function hideSanPhamKhongThuoc(list) {
 		if (hide) hideLi(allLi[i]);
 	}
 }
+
+//companysMenu responsive
+function setCompanysMenu() {
+	var content = document.getElementsByClassName("companyMenu")[0];
+	if (content.style.maxHeight){
+      content.style.maxHeight = null;
+      document.getElementById("iconOpenMenu").style.display = "block";
+      document.getElementById("iconCloseMenu").style.display = "none";
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+      document.getElementById("iconOpenMenu").style.display = "none";
+      document.getElementById("iconCloseMenu").style.display = "block";
+    } 
+}
