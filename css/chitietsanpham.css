@@ -30,25 +30,25 @@
     clear: both;
 }
 
-.overlaycertainimg {
+/*.overlaycertainimg {
     z-index: 14;
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: fixed;*/
     /*Định vị cho thành phần theo cửa sổ trình duyệt*/
     /*Cho nằm lên trên màn hình*/
-    top: 0;
+    /*top: 0;
     left: 0;
     background: rgba(0, 0, 0, .95);
     transform: scale(0);
     transition: .2s ease;
-}
+}*/
 
-.overlaycertainimg .close {
+/*.overlaycertainimg .close {*/
     /*Nút tắt hình*/
-    position: absolute;
+    /*position: absolute;*/
     /*Định vị tuyệt đối theo thành phần bao ngoài (cửa sổ trình duyệt)*/
-    top: 15px;
+    /*top: 15px;
     right: 45px;
     font-size: 3rem;
     width: 1em;
@@ -58,52 +58,52 @@
     color: #ccc;
     cursor: pointer;
     transition: .2s ease;
-}
+}*/
 
-.overlaycertainimg .close:hover {
+/*.overlaycertainimg .close:hover {*/
     /* color: #fff; */
-    background-color: #f33;
+    /*background-color: #f33;
     border-radius: 50%;
-}
+}*/
 
-.overlaycertainimg-content {
+/*.overlaycertainimg-content {
     width: 100%;
-}
+}*/
 
-.overlaycertainimg-content img {
+/*.overlaycertainimg-content img {
     background-color: #fff;
-}
+}*/
 
-.overlaycertainimg-content img.bigimg {
+/*.overlaycertainimg-content img.bigimg {
     /*hình lớn ở certainimg*/
     height: 540px;
     display: block;
     margin: auto;
-}
+}*/
 
-.overlaycertainimg-content .div_smallimg
+/*.overlaycertainimg-content .div_smallimg*/
 
 /*hình nhỏ ở certainimg*/
-    {
+    /*{
     display: block;
     margin-top: 25px;
     width: 100%;
     text-align: center;
-}
+}*/
 
-.overlaycertainimg-content .div_smallimg:hover {
+/*.overlaycertainimg-content .div_smallimg:hover {
     background-color: #222;
-}
+}*/
 
-.overlaycertainimg-content .div_smallimg img {
+/*.overlaycertainimg-content .div_smallimg img {
     width: 120px;
     height: 90px;
     transform: scale(0.95);
-}
+}*/
 
-.overlaycertainimg-content .div_smallimg img:hover {
+/*.overlaycertainimg-content .div_smallimg img:hover {
     transform: scale(1);
-}
+}*/
 
 .picture {
     float: left;
