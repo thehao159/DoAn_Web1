@@ -592,11 +592,13 @@ function smallmenu(number) {
         document.getElementById("openmenu").style.display = "none";
         document.getElementById("closemenu").style.display = "block";
         document.getElementsByClassName("content")[0].style.maxHeight = document.getElementsByClassName("content")[0].scrollHeight + "px";
+        document.getElementsByClassName("content")[0].style.overflow = "unset";
     }
     if (number == 0) {
         document.getElementById("openmenu").style.display = "block";
         document.getElementById("closemenu").style.display = "none";
         document.getElementsByClassName("content")[0].style.maxHeight = null;
+        document.getElementsByClassName("content")[0].style.overflow = "hidden";
     }
 }
 
