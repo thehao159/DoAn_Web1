@@ -85,7 +85,7 @@ function phanTich_URL_chiTietSanPham() {
     var hinh = divChiTiet.getElementsByClassName('picture')[0];
     hinh = hinh.getElementsByTagName('img')[0];
     hinh.src = sanPham.img;
-    document.getElementById('bigimg').src = sanPham.img;
+    /*document.getElementById('bigimg').src = sanPham.img;
 
     // Hình nhỏ
     addSmallImg("img/products/huawei-mate-20-pro-green-600x600.jpg");
@@ -94,15 +94,15 @@ function phanTich_URL_chiTietSanPham() {
     addSmallImg("img/chitietsanpham/oppo-f9-mau-do-3-org.jpg");
     addSmallImg("img/products/huawei-mate-20-pro-green-600x600.jpg");
     addSmallImg("img/chitietsanpham/oppo-f9-mau-do-3-org.jpg");
-    addSmallImg("img/products/huawei-mate-20-pro-green-600x600.jpg");
+    addSmallImg("img/products/huawei-mate-20-pro-green-600x600.jpg");*/
 
     // Khởi động thư viện hỗ trợ banner - chỉ chạy sau khi tạo xong hình nhỏ
-    var owl = $('.owl-carousel');
+    /*var owl = $('.owl-carousel');
     owl.owlCarousel({
         items: 5,
         center: true,
         smartSpeed: 450,
-    });
+    });*/
 }
 
 // Chi tiết khuyến mãi
@@ -137,7 +137,7 @@ function addThongSo(ten, giatri) {
             </li>`;
 }
 
-// add hình
+/*// add hình
 function addSmallImg(img) {
     var newDiv = `<div class='item'>
                         <a>
@@ -160,4 +160,4 @@ function closecertain() {
 // đổi hình trong chế độ xem hình
 function changepic(src) {
     document.getElementById("bigimg").src = src;
-}
+}*/
